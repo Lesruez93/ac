@@ -1,0 +1,8 @@
+{
+  "name": "Anti_corruption",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}

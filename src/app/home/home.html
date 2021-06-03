@@ -1,0 +1,42 @@
+
+<ion-header>
+  <ion-toolbar mode="ios" color="primary">
+    <ion-title>Home</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content padding="" >
+
+
+
+
+    <div class="ion-text-center">
+        <img style="width: 200px" src="./assets/images/app.jpeg" >
+      <h3 style="color:#02AA55;" >Corruption Reporting<br>
+        App</h3>
+
+
+  </div>
+  <div padding="" >
+
+    <ion-row class="pictures-row">
+
+      <ion-col class="picture-item" size="6"  *ngFor="let d of data">
+        <ion-card routerLink="{{d.page}}">
+        <app-image-shell [mode]="'cover'" [src]="d.image" class="user-photo-image">
+          <app-aspect-ratio [ratio]="{w:1, h:1}">
+          </app-aspect-ratio>
+        </app-image-shell>
+        <div class=" ion-text-center">  <ion-label color="dark" >{{d.text}}</ion-label></div>
+
+        </ion-card>
+
+      </ion-col>
+
+    </ion-row>
+
+
+
+  </div>
+
+
+</ion-content>

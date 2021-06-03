@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Anti-Corruption</string>
+    <string name="title_activity_main">Anti-Corruption</string>
+    <string name="package_name">com.yf.anticorruption.app</string>
+    <string name="custom_url_scheme">com.yf.anticorruption.app</string>
+</resources>
